@@ -1,0 +1,41 @@
+.feedback {
+  padding-bottom: 50px;
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #0D0D0D;
+    text-transform: uppercase;
+  } 
+  &__item {
+    width: 97%;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  &__img {
+    margin-right: 60px;
+    width: 170px;
+    height: 170px;
+  }
+  &__respond_name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #0D0D0D;
+    
+  }
+  &__respond_achiev {
+    font-weight: 500;
+    font-size: 14px;
+    color: #646464;
+    
+  }
+  &__respond__descr {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0D0D0D;
+  }
+}

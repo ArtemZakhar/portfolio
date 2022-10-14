@@ -1,0 +1,595 @@
+@media (max-width: 1200px) {
+  .header {
+    margin: 0 30px 0 30px;
+  }
+  .promo {
+    &__wrapper {
+      margin: 90px 30px 0 0;
+    }
+  }
+  .consultation {
+    padding: 90px 0 82px 0;
+    background-position: 30%;
+    &__title{
+      font-size: 30px;
+      line-height: 36px;
+    }
+    &__descr {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+  .feed-form {
+    margin-top: 26px;
+    width: 280px;
+    input {
+      margin-bottom: 15px;
+      height: 45px;
+      &:nth-child(3) {
+        margin-bottom: 18px;
+      }
+    }
+  }
+  .button {
+    &_submit {
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+  .carousel{
+    padding-bottom: 20px;
+    .container{
+      width: 60%;
+    }
+  }
+  .tns-outer {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+  }
+  .tns-item{
+    img {
+      width: 90%;
+    }
+  }
+  .catalog {
+    padding-bottom: 50px;
+    &__tabs {
+      margin-top: 50px;
+    }
+    &__tab {
+      width: 200px;
+      height: 45px; 
+    }
+    &__content {
+      margin-top: 50px;
+      padding: 0 20px 0 20px;
+    }
+    &-item {
+      width: 280px;
+      min-height: 400px;
+    }
+  }
+  .feedback {
+    padding: 0 30px 0 30px;
+    &__item {
+      margin-top: 40px;
+    }
+    &__respond_name {
+      font-size: 17px;
+      line-height: 18px;
+      
+    }
+    &__respond_achiev {
+      font-size: 13px;
+      
+    }
+    &__respond__descr {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    &__logo {
+      width: 150px;
+    } 
+    &__official {
+      font-size: 10px;
+      span {
+        font-size: 16px;
+      }
+    }
+    &__phone {
+      font-size: 14px;
+    }
+  }
+  .button {
+    width: 125px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 16px;
+    &_main {
+      width: 250px;
+      height: 40px;
+      font-size: 15px;
+    }
+  }
+  .promo {
+    padding: 21px 0 73px 0;
+    background-position: 40%;
+    &__header {
+      font-size: 35px;
+      line-height: 35px;
+    }
+    &__subheader {
+      font-size: 20px;
+      line-height: 20px;
+    }
+    &__icons {
+      width: 375px;
+    }
+    &__icon {
+      font-size: 13px;
+      line-height: 12px;
+      img {
+        height: 40px;
+      }
+    }
+    &__link {
+      font-size: 14px;
+      line-height: 23px;
+    }
+  }
+  .advantages {
+    padding: 60px 0 55px 0;
+    &__wrapper {
+      margin-top: 50px;
+    }
+    &__item {
+      min-height: 230px;
+      max-width: 245px;
+      img {
+        width: 60px;
+      }
+    }
+  }
+  .title {
+    font-size: 25px;
+  }
+  .advantages__descr {
+    span {
+      margin: 30px 0 17px 0;
+      font-size: 16px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+  .consultation {
+    padding: 80px 0 72px 0;
+    background-position: 40%;
+    &__title{
+      margin-left: 30px;
+      font-size: 25px;
+      line-height: 29px;
+    }
+    &__descr {
+      margin-left: 30px;
+      font-size: 17px;
+      line-height: 20px;
+    }
+  }
+  .feed-form {
+    margin-top: 24px;
+    width: 350px;
+    input {
+      margin-left: 30px;
+      margin-bottom: 13px;
+      &:nth-child(3) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .button {
+    &_submit {
+      margin-left: 30px;
+      height: 40px;
+      width: 322px;
+      font-size: 16px;
+    }
+  }
+  .carousel{
+    .container{
+      width: 80%;
+    }
+  }
+  .catalog {
+    padding-bottom: 50px;
+    .title {
+      font-size: 25px;
+    }
+    &__tabs {
+      margin-top: 40px;
+    }
+    &__tab {
+      width: 180px;
+      height: 40px; 
+      line-height: 38px;
+    }
+    &__content {
+      margin-top: 40px;
+      padding: 0 20px 0 20px;
+      justify-content: space-around;
+    }
+  }
+  .feedback {
+    padding: 0 40px 0 40px;
+    &__title {
+      font-size: 25px;
+    } 
+    &__item {
+      margin-top: 40px;
+    }
+    &__img {
+      margin-right: 50px;
+      width: 150px;
+      height: 150px;
+    }
+    &__respond_name {
+      font-size: 16px;
+      line-height: 18px;
+      
+    }
+    &__respond_achiev {
+      font-size: 13px;
+    }
+    &__respond__descr {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  .footer {
+    margin-top: 20px;
+    &__info {
+      width: 300px;
+      height: 160px;
+      background: $main-color;
+      padding: 20px 20px 20px 20px;
+    }
+    &__addr {
+      margin-bottom: 16px;
+      font-size: 16px;
+    }
+    &__phone {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 25px;
+    }
+    &__social-item {
+      width: 40px;
+      height: 40px;
+      margin: 0 15px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    &__phone {
+      font-size: 13px;
+    }
+  }
+  .button {
+    &_main {
+      width: 180px;
+      height: 32px;
+      font-size: 12px;
+    }
+  }
+  .promo {
+    padding: 21px 0 43px 0;
+    background-position: 30%;
+    &__header {
+      font-size: 32px;
+      line-height: 32px;
+    }
+    &__subheader {
+      font-size: 18px;
+      line-height: 18px;
+    }
+    &__icons {
+      width: 335px;
+    }
+    &__link {
+      font-size: 13px;
+      line-height: 20px;
+    }
+  }
+  .advantages {
+    padding: 50px 0 45px 0;
+    &__wrapper {
+      margin-top: 45px;
+    }
+    &__item {
+      min-height: 230px;
+      max-width: 175px;
+    }
+  }
+  .title {
+    font-size: 23px;
+  }
+  .advantages__descr {
+    span {
+      margin: 25px 0 15px 0;
+      font-size: 15px;
+    }
+    p {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  .consultation {
+    padding: 70px 0 62px 0;
+    background-position: 50%;
+    &__title{
+      font-size: 23px;
+      line-height: 30px;
+    }
+    &__descr {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  .feed-form {
+    margin-top: 20px;
+    width: 350px;
+    input {
+      margin-bottom: 11px;
+      &:nth-child(3) {
+        margin-bottom: 13px;
+      }
+    }
+  }
+  .carousel{
+    .container {
+      width: 80%;
+      button {
+        display: none;
+      }
+    }
+  }
+  .tns-outer {
+    width: 500px;
+  }
+  .tns-item{
+    img {
+      width: 90%;
+    }
+  }
+  .catalog {
+    padding-bottom: 40px;
+    .title {
+      font-size: 23px;
+    }
+    &__tabs {
+      margin-top: 30px;
+    }
+    &__tab {
+      width: 150px;
+      height: 35px; 
+      line-height: 35px;
+      font-size: 15px;
+    }
+    &__content {
+      margin-top: 30px;
+    }
+    &-item {
+      width: 300px;
+      min-height: 350px;
+      padding: 10px 20px 15px 20px;
+      &__img {
+        max-height: 180px;
+      }
+      &__subtitle {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 20px;
+      }
+      &__descr {
+        margin-top: 13px;
+        font-size: 13px;
+        line-height: 18px;
+      }
+      &__link {
+        margin-top: 15px;
+        font-size: 13px;
+      }
+      hr {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      &__old-orice {
+        font-size: 13px;
+      }
+      &__price {
+        font-size: 17px;
+      }
+      &__list {
+        li {
+          font-size: 13px;
+          line-height: 18px;
+          margin-bottom: 15px;
+        }
+      }
+      &__back {
+        font-size: 13px;
+      }
+    }
+  }
+  .feedback {
+    &__title {
+      font-size: 23px;
+    } 
+    &__img {
+      margin-right: 40px;
+      width: 120px;
+      height: 120px;
+    }
+    &__respond_name {
+      font-size: 15px;
+      line-height: 17px;
+      
+    }
+    &__respond_achiev {
+      font-size: 12px;
+    }
+    &__respond__descr {
+      font-size: 13px;
+      line-height: 17px;
+    }
+  }
+}
+
+@media (max-width: 577px) {
+  .header{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+  .promo {
+    padding: 21px 0 73px 0;
+    background-position: 25%;
+    &__wrapper {
+      margin: 70px 0 0 10px;
+      align-items: center;
+    }
+    &__header {
+      font-size: 25px;
+      line-height: 25px;
+    }
+    &__subheader {
+      text-align: center;
+      font-size: 18px;
+      line-height: 18px;
+    }
+    &__icons {
+      width: 300px;
+    }
+    &__icon {
+      font-size: 12px;
+      line-height: 11px;
+    }
+    &__link {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+  .advantages {
+    padding: 40px 0 35px 0;
+    &__wrapper {
+      flex-direction: column;
+      margin-top: 40px;
+    }
+    &__item {
+      max-width: 240px;
+    }
+  }
+  .title {
+    font-size: 20px;
+  }
+  .advantages__descr {
+    span {
+      margin: 20px 0 12px 0;
+    }
+  }
+  .consultation {
+    padding: 80px 0 72px 0;
+    background-position: 40%;
+    &__title{
+      margin-left: 18px;
+      font-size: 20px;
+      line-height: 23px;
+    }
+    &__descr {
+      margin-left: 18px;
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+  .feed-form {
+    margin-top: 20px;
+    width: 300px;
+    input {
+      margin-left: 18px;
+      margin-bottom: 10px;
+      &:nth-child(3) {
+        margin-bottom: 13px;
+      }
+    }
+  }
+  .button {
+    &_submit {
+      margin-left: 18px;
+      height: 35px;
+      width: 284px;
+      font-size: 15px;
+    }
+  }
+  .carousel{
+    .container {
+      width: 100%;
+    }
+  }
+  .tns-outer {
+    width: 300px;
+  }
+  .tns-item{
+    img {
+      width: 70%;
+    }
+  }
+  .catalog {
+    padding-bottom: 30px;
+    &__tabs {
+      height: 130px;
+      margin-top: 20px;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    &__content {
+      margin-top: 20px;
+    }
+  }
+  .feedback {
+    padding: 0 15px 0 15px;
+    &__item {
+      width: 97%;
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &__respond {
+      margin-top: 20px;
+    }
+    &__img {
+      display: block;
+      margin: 0 auto;
+      width: 120px;
+      height: 120px;
+    }
+    &__respond_name {
+      display: block;
+      text-align: center;
+    }
+    &__respond_achiev {
+      display: block;
+      text-align: center;
+    }
+  }
+}

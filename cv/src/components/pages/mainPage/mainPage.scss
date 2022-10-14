@@ -1,0 +1,50 @@
+@mixin btn_hover {
+	&:not([disabled]):hover {
+		background-color: #17bbdb;
+  }
+}
+
+.mainBtns {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  :first-child {
+    margin-left: 0;
+  }
+}
+
+.btn {
+  width: 313px;
+  height: 90px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 30px;
+  background-color: #b4e2ff;
+  cursor: pointer;
+  @include btn_hover;
+  div {
+    margin: 5%;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    line-height: 25px;
+    text-transform: uppercase;
+    outline: none;
+  }
+}
+
+.afterBtn {
+  margin-left: 20px;
+}
+
+.atBeforePage {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 65px;
+  div {
+    font-size: 15px;
+  }
+}
