@@ -12,7 +12,7 @@
   grid-row: 1/2;
 }
 
-.ava__track_img{
+.ava__track_img2{
   display: block;
   width: 250px;
   margin: 0 auto;
@@ -29,35 +29,88 @@
   grid-row: 2/3;
 }
 
-.descr__track {
+.portfolio__track {
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
-.achievements__track {
+.courses__track {
   grid-column: 3/4;
   grid-row: 2/3;
 }
 
-.expirience_info__track {
+.courses_info__track {
   margin-top: 0;
   grid-column: 1/2;
   grid-row: 3/4;
+  :first-child {
+    margin-top: 45px; 
+    padding-left: 0;
+  }
 }
 
-.descr_info__track {
+.portfolio_info__track {
   margin-top: 45px;
   grid-column: 2/3;
   grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: minmax(150px, max-content) minmax(150px, max-content);
+  column-gap: 20px;
+  row-gap: 20px;
+  img {
+    max-width: 220px;
+    height: 90%;
+  } 
 }
 
-.achievements_info__track {
+.courses_info__track p {
+  margin-top: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.courses_info__track span.active-style { 
+  color: #17bbdb; 
+  font-weight: 700; 
+  text-decoration: none; 
+  border: 0; 
+}
+
+.description_info__track {
   margin-top: 45px;
   grid-column: 3/4;
   grid-row: 3/4;
   font-size: 16px;
   font-weight: 500;
+  span {
+    font-size: 20px;
+  font-weight: 700;
+  }
+  :first-child {
+    margin-bottom: 30px;
+  }
 }
+
+.courses__item_selected {
+  box-shadow: 0 5px 20px #17bbdb;
+  transform: translateY(-8px);
+}
+
+.courses__item_clicked {
+  box-shadow: 0 5px 20px #17bbdb;
+  transform: translateY(-8px);
+}
+
+
+
+
+
+
+
+
+/* 
 
 .expirience_study_info__track {
   margin-top: 0;
@@ -81,14 +134,6 @@
 
 span.grey {
   color: grey;
-}
-
-
-.expirience_info__track .accordion-heading span, .expirience_study_info__track .accordion-heading span {
-  border-bottom: 2px dotted #333;
-  font-size: 24px;
-  cursor: pointer;
-  margin-top: 0.5rem;
 }
 
 .expirience_info__track div.active-style span, .accordion-block p.active-style span, .expirience_study_info__track div.active-style span { 
@@ -115,4 +160,4 @@ span.grey {
   overflow: visible;
   opacity: 1;
   margin-top: 1rem;
-}
+} */

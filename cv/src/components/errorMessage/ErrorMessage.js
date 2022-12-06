@@ -8,7 +8,7 @@ const ErrorMessage = () => {
       height: '250px',
       objectFit: 'contain',
       margin: '0 auto',
-      backgroundColor: "#C2B6DF"
+      backgroundColor: "#EFECEC"
     }} src={img} />
   )
 }

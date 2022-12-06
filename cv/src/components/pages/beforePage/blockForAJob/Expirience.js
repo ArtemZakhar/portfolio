@@ -27,7 +27,7 @@ const  Expirience = ({active, jobInfo, onActive, onToggleRise}) => {
 
 
   return (
-    <div className="expirience_info__track">
+    <div className="expirience_info__track mb-10">
         <div className={classNameforJob}>
           <span onClick={onActive}>Робота</span>
         </div>

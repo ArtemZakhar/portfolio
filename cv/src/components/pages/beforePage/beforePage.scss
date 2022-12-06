@@ -44,6 +44,10 @@
   grid-row: 3/4;
 }
 
+.mb-10 {
+  margin-bottom: 100px;
+}
+
 .descr_info__track {
   margin-top: 45px;
   grid-column: 2/3;
@@ -87,7 +91,6 @@ span.grey {
   border-bottom: 2px dotted #333;
   font-size: 24px;
   cursor: pointer;
-  margin-top: 0.5rem;
 }
 
 .expirience_info__track div.active-style span, .accordion-block p.active-style span, .expirience_study_info__track div.active-style span { 

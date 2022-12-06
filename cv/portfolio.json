@@ -1,0 +1,125 @@
+{
+  "portfolio": [
+    {
+      "id": "1",
+      "name": "Uber",
+      "description": "Найперша робота при вивеченні курсу по WEB. JS використали для відображення гамбургеру. Сторінка адаптована до мобільних застосунків.",
+      "course": "web",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/Web/01Uber/src",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/1t3g9kgqWZNMazLIv4oaU1TuNqCIz3ySS",
+      "image": "https://drscdn.500px.org/photo/1055515441/m%3D256/v2?sig=e82725231a9a034475daf45730fa985d7caa38a21f24845e9461511fd46ff234"
+    },
+    {
+      "id": "2",
+      "name": "RunSmart",
+      "description": "Познайомились з css-анімацією. Оформили перший слайдер. Модальні вікна, форми зв'язку, таби, реалізовані за допомогою jQuery. Сторінка адаптована до мобільних застосунків.",
+      "course": "web",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/Web/02RunSmart",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/1QKJ0VmTzvurKGyo6V8jNyOh5Byks1FhN",
+      "image": "https://drscdn.500px.org/photo/1055515439/m%3D256/v2?sig=081bc4cd6f24ed4699336f723ee9f60f7f0d473e2a33f3d6e795fbc34a5ffdc0"
+    },
+    {
+      "id": "3",
+      "name": "CVTest",
+      "description": "Тренування в оформленні сайту-портфоліо. Сторінка адаптована до мобільних застосунків.",
+      "course": "web",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/Web/03CVTest",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/14Dt1DLMQ9fo36uJT1kJdB2idY7yIhFg0",
+      "image": "https://drscdn.500px.org/photo/1055515432/m%3D256/v2?sig=83854f851e3c8f138f67bc1fcfa277fd20309ad1dbce0fdcc847e719a6db8820"
+    },
+    {
+      "id": "4",
+      "name": "Food",
+      "description": "Перший проект, який реалізовували за допомогою JS. Познайомились з fetch. Реалізували багато всього: таби, таймер, калькулятор, слайдер, форми зворотнього зв'язку.",
+      "course": "JS",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/JS/02Food",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/1pK7_7Qju8eaExVIAUaMXEQKPkLnPWnKN",
+      "image": "https://drscdn.500px.org/photo/1055515434/m%3D256/v2?sig=4bab029d8cd4584fe83d8f7a5b87fbf2485d5e56e9a23cd8a835cdcdb52f063d"
+    },
+    {
+      "id": "5",
+      "name": "Window",
+      "description": "Доволі схожий на проект 'Food'. Він був реалізований в рамках курсу 'Практичний JavaScript. Вперше познайомився з поняттям state і передачою його в якості аргументу.",
+      "course": "JS",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/JS/03Window",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/1W1735vou8xQmn2h_J9ZdqksuFGcqNC1P",
+      "image": "https://drscdn.500px.org/photo/1055515433/m%3D256/v2?sig=60e1049ea14564581029eaf5f7102b177775dedd197a729780a1614b44e41f16"
+    },
+    {
+      "id": "6",
+      "name": "Art",
+      "description": "Найулюбленіший проект: яскравий, з великою кількістю інтерактиву. Особливо запам'ятався аккордеон, фільтер та зміна картинки при наведенні.",
+      "course": "JS",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/JS/04Art",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/19GGOUiPh8smy6MlzvVllYs8OfE72mXzi",
+      "image": "https://drscdn.500px.org/photo/1055515436/m%3D256/v2?sig=7a61eba614382e997c8c0f586ea03daff46034f29cd2060fa55d93c24cda1df1"
+    },
+    {
+      "id": "7",
+      "name": "Bringitup",
+      "description": "Найдивніший проект. Сайт - суцільний слайдер. Із цікавого: навчились опрацьовувати відео з YouTube",
+      "course": "JS",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/JS/05bringitup",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/1SqRv95VJHP2WYz_GbgvdIhmaTaIn_u41",
+      "image": "https://drscdn.500px.org/photo/1055515437/m%3D256/v2?sig=d1de092bf73f93f0e0854f24aa1eb326c839f2552ab6d16e0fc10889f64a812a"
+    },
+    {
+      "id": "8",
+      "name": "Employees",
+      "description": "Ознайомлення з React.",
+      "course": "JS+React",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/JS%2BReact(works%20only%20through%20OpenServer%20or%20npm)/01employees",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/1uKwUQ4uymNY1ltZqYzxzAYBmcypvrvnA",
+      "image": "https://drscdn.500px.org/photo/1055515435/m%3D256/v2?sig=852438d692b33ab4696d2bc4ba4a40100712c862fe25aefb707bda6c8664fbb8"
+    },
+    {
+      "id": "9",
+      "name": "Marvel_class",
+      "description": "Реалізація частини проекту за допомогою класового компоненту. Вивчення життєвих циклів.",
+      "course": "JS+React",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/JS%2BReact(works%20only%20through%20OpenServer%20or%20npm)/02marvel_via_class",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/13OwLDljUuDuOsencwazupYHGy5kZRVT7",
+      "image": "https://drscdn.500px.org/photo/1055515440/m%3D256/v2?sig=5e3f9941cea98bf12ee68ff4602982d23410d92639e7fe847362d4590bfc24d2"
+    },
+    {
+      "id": "10",
+      "name": "Marvel_hook",
+      "description": "Переробка проекту під хуки. Повністю працюючий додаток. Можна переглянути результат роботи на Heroku.",
+      "course": "JS+React",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/JS%2BReact(works%20only%20through%20OpenServer%20or%20npm)/03marvel_via_hook",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/1gcGt_BQ0yRAOlblqypdQ9vHUH7ZB5SJU",
+      "image": "https://drscdn.500px.org/photo/1055515440/m%3D256/v2?sig=5e3f9941cea98bf12ee68ff4602982d23410d92639e7fe847362d4590bfc24d2"
+    },
+    {
+      "id": "11",
+      "name": "Heroes",
+      "description": "Практика Redux.",
+      "course": "JS+React",
+      "githubLink": "https://github.com/ArtemZakhar/portfolio/tree/main/Udemy/JS%2BReact(works%20only%20through%20OpenServer%20or%20npm)/04_heroes_via_redux",
+      "gDiskLink": "https://drive.google.com/drive/u/0/folders/1em4TaHdkWtmD0iRWPVFGPqRon8KZt19R",
+      "image": "https://drscdn.500px.org/photo/1055515431/m%3D900/v2?sig=3bcea8d2d4d9e4b2c47899bf7a2035c238cdc573a0ebc4ba6359a6f4d5947a36"
+    }
+  ],
+  "filters": [
+    {
+      "id": "Udemy",
+      "description": "Сервіс для онлайн навчання, де люди, які щось знають можуть поділитись з людьми, які шукають знання.",
+      "label": "Udemy"
+    },
+    {
+      "id": "web",
+      "description": "Курс по основам веб-розробки. На практичних прикладах демонструються: цикли створення сайту, принципи роботи з графічними редакторами (Photoshop, Zeplin, Figma, Avocode), HTML і CSS (теорія + практика), основи JS і Jquery, робота з Git і GitHub та багато інших технологій і бібліотек (Bootstrap, FlexBox, Sass/Scss/Less, мобільна адаптація, БЕМ, Gulp...",
+      "label": "WEB-розробник"
+    },
+    {
+      "id": "JS",
+      "description": "Курс по основам JS, а також практичний курс по реалізації кількох проектів для засвоєння матеріалу. В курсі викладені: основи програмування та алгоритмів, основні концепції та принципи JavaScript (від найпростіших до найскладніших), популярні технології (AJAX, JSON та інші), принципи роботи з npm, Babel, Browserify, Webpack, Heroku, Firebase і т.д.",
+      "label": "JavaScript"
+    },
+    {
+      "id": "JS+React",
+      "description": "Ознайомлення з бібліотекою React і все, що з нею пов'язано (в тому числі і Redux). Практика створення повноцінних веб-застосунків",
+      "label": "JS+React"
+    }
+  ]
+}
